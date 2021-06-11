@@ -1,0 +1,58 @@
+Lire le fichier
+
+Chipset : Nous donne les objets avec leur typage
+
+Link : 
+
+
+
+
+Pour lire ce fichier il faut utiliser la même chose que le cat en
+C++
+
+Toutes les input au lancement doit avoir une valeur de départ
+sinon erreur
+
+
+Porte logique deux entrées une sortie : exemple électricité : 
+Porte AND reçoit deux
+entrée et return de l'électricité ssi les deux "piliers"
+reçoivent du courant
+
+porte XOR : ssi l'un des deux est allumé ça return
+
+Porte OR : 
+
+Porte NOR :
+
+
+4001: Four NOR gates.
+•4008: 4 bits adder. --> 10 portes logiques
+•4011: Four NAND gates.
+•4013: Dual Flip Flop.
+•4017: 10 bits Johnson decade.
+•4030: Four XOR gates.
+•4040: 12 bits counter.
+•4069: Six INVERTER gates.
+•4071: Four OR gates.
+•4081: Four AND gates.
+•4094: 8 bits shift register.
+•4514: 4 bits decoder.
+•4801: Random access memory.
+•2716: Read only memory.
+
+
+Pour parser les link voir s'il est possible de faire une 
+unordered map dans une autre.
+
+Vérifier les chipsets sur internet.
+
+3 états pour un signal : non branché, branché sans courant,
+branché et reçoit du courant
+
+Créer des classes pour chaque Chipset car si les chipsets
+n'utilisent pas les mêmes portes créer une classe Chipset
+pour faire hériter toutes les fonctions n'a aucun interêt !
+
+---> Conclusion : Créer des classes pour chaque chipset avec
+les fonctions définies dedans.

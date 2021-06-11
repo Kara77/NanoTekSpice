@@ -1,0 +1,9 @@
+.chipsets:
+input a
+input b
+output s
+4001 nand
+.links:
+a:1 or:2
+b:1 or:1
+s:1 or:3
