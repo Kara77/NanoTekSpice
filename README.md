@@ -3,14 +3,14 @@
 Simulation of a circuit of electronic components using a nts configuration file
 
 
-##Components:
+## Components:
 
 Input / Clock / True / False
 Output
 Components(4001, 4008, 4011...) 
 
 
-##Exemple of a configuration file:
+## Exemple of a configuration file:
 
 ```
 . chipsets :
@@ -28,7 +28,7 @@ and0 :4 out :1
 ```
 
 
-##Execution:
+## Execution:
 
 ```
 $make
@@ -36,7 +36,8 @@ $./nanotekspice <file_name> [<input=value> ...]
 ```
 
 
-##Commands
+## Commands
 
 Simulate: Simulate a tick of the circuit
+
 Exit: Close properly the program
