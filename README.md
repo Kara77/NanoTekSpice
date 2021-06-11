@@ -36,7 +36,7 @@ $./nanotekspice <file_name> [<input=value> ...]
 ```
 
 
-## Commands
+## Commands:
 
 Simulate: Simulate a tick of the circuit
 
